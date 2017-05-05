@@ -1,0 +1,22 @@
+{
+  "name": "json-diff-core",
+  "version": "0.0.0",
+  "description": "json-diff-core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-tester/json-diff-core.git"
+  },
+  "keywords": [
+    "json-diff-core"
+  ],
+  "author": "Manthan Mallikarjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-tester/json-diff-core/issues"
+  },
+  "homepage": "https://github.com/j-tester/json-diff-core#readme"
+}
