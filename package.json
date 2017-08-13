@@ -1,15 +1,16 @@
 {
   "name": "json-diff-core",
-  "version": "0.0.4",
+  "version": "0.0.0-development",
   "description": "json-diff-core",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint *.js lib/."
+    "lint": "eslint *.js lib/.",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/j-tester/json-diff-core.git"
+    "url": "https://github.com/j-tester/json-diff-core.git"
   },
   "keywords": [
     "json-diff-core"
@@ -21,14 +22,19 @@
   },
   "homepage": "https://github.com/j-tester/json-diff-core#readme",
   "devDependencies": {
+    "condition-circle": "^1.5.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.3",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.2.0",
+    "semantic-release": "^6.3.6"
   },
   "dependencies": {
     "axios": "^0.16.1",
     "deep-object-diff": "^1.0.3",
     "fast-csv": "^2.4.0",
     "flat": "^2.0.1"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
   }
 }
