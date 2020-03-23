@@ -1,6 +1,6 @@
 {
   "name": "json-diff-core",
-  "version": "0.0.0-development",
+  "version": "0.1.1",
   "description": "json-diff-core",
   "main": "index.js",
   "scripts": {
